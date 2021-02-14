@@ -1,0 +1,50 @@
+@media (max-width: 1199px) {
+  #banner {
+    min-height: 70vh; }
+  #team .card {
+    padding: 0 10%;
+    text-align: center; }
+    #team .card .card-img img {
+      width: 70%; } }
+
+@media (max-width: 991px) {
+  #catagories .card .card-body {
+    margin: -152px 29px 30px; } }
+
+@media (max-width: 767px) {
+  #banner .banner-content h1 {
+    font-size: 2.1rem; } }
+
+@media (max-width: 575px) {
+  #banner {
+    min-height: 50vh; } }
+
+@media (max-width: 531px) {
+  #banner .banner-content h1 {
+    font-size: 1.8rem; } }
+
+@media (max-width: 500px) {
+  #subscribe h2 {
+    font-size: 29px; } }
+
+@media (max-width: 465px) {
+  #banner .banner-content .happy-title {
+    font-size: 1.2rem; } }
+
+@media (max-width: 387px) {
+  #subscribe h2 {
+    font-size: 23px; } }
+
+@media (max-width: 380px) {
+  #footer p {
+    font-size: 1rem; } }
+
+@media (max-width: 360px) {
+  #team h2 {
+    font-size: 40px; } }
+
+@media (max-width: 353px) {
+  #topMenu .right-part .ml-4 {
+    margin-left: 0 !important; }
+  #topMenu .right-part .ml-3 {
+    margin-left: 0 !important; } }

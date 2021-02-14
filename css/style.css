@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Dhurjati', sans-serif; }
+
+#topMenu ul {
+  margin: 0;
+  padding: 0; }
+
+#topMenu i {
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s; }
+
+#topMenu i:hover {
+  color: #BE512B !important; }
+
+#header .navbar {
+  background-color: rgba(19, 19, 19, 0.7); }
+  #header .navbar .navbar-brand img:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); }
+  #header .navbar .nav-link {
+    font-size: 1.5rem;
+    padding: 0 15px;
+    font-weight: bold; }
+  #header .navbar .navbar-toggler {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.6);
+    outline: none !important; }
+
+#banner {
+  min-height: 100vh;
+  background: linear-gradient(rgba(19, 19, 19, 0.9), rgba(19, 19, 19, 0.9)), url("../img/banner/bg-banner.jpg") no-repeat center center/cover;
+  background-attachment: fixed; }
+  #banner .banner-content .btn {
+    font-family: 'Black Ops One', cursive;
+    background: #F49500;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s; }
+  #banner .banner-content .btn:hover {
+    background: #131313; }
+
+#catagories .catagories-title h2 {
+  font-size: 48px; }
+
+#catagories .card {
+  border: 0;
+  background: transparent; }
+  #catagories .card .card-img {
+    transition: 1s;
+    width: 100%;
+    height: 300px; }
+
+#catagories .card-img img {
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+
+#catagories .card-img img:hover {
+  filter: grayscale(40%);
+  z-index: -999;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-filter: grayscale(40%); }
+
+#catagories .card-body {
+  z-index: 3;
+  padding: 10px 30px;
+  margin: -56px 50px 30px;
+  background: rgba(255, 193, 7, 0.8);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+
+#catagories .card-body:hover {
+  opacity: .9; }
+  #catagories .card-body:hover a {
+    transition: .5s;
+    color: #69460d !important;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s; }
+
+#catagories button {
+  transition: .6s;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -ms-transition: .6s;
+  -o-transition: .6s; }
+
+#catagories button:hover {
+  color: #fff;
+  background: #000;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0; }
+
+#product {
+  background: #131313; }
+  #product h2 {
+    font-size: 48px; }
+  #product .card {
+    background: transparent;
+    border: 0; }
+    #product .card .card-img img {
+      position: relative;
+      width: 100%;
+      height: 260px; }
+    #product .card .card-img .icon {
+      opacity: 0;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transition: .9s;
+      -webkit-transition: .9s;
+      -moz-transition: .9s;
+      -ms-transition: .9s;
+      -o-transition: .9s; }
+  #product .card:hover .icon {
+    opacity: 1; }
+  #product .card:hover {
+    filter: grayscale(2%);
+    background: #000;
+    box-shadow: 0px 0px 10px #F49500;
+    -webkit-filter: grayscale(2%); }
+  #product i {
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s; }
+  #product i:hover {
+    color: #F49500; }
+  #product .badge {
+    font-family: 'Black Ops One', cursive;
+    color: #fff;
+    background: #BE512B;
+    border-radius: 0;
+    padding: 5px;
+    font-weight: 300; }
+  #product .card-body {
+    background: transparent; }
+    #product .card-body .card-content h3 {
+      font-weight: lighter; }
+    #product .card-body .card-content span {
+      font-size: 20px; }
+  #product .view {
+    position: relative; }
+    #product .view .btn {
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0; }
+  #product .view::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    height: 4px;
+    background: #BE512B;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s; }
+  #product .view:hover::before {
+    left: 35%;
+    right: 35%; }
+
+#team h2 {
+  font-size: 48px; }
+
+#team .card {
+  border: none; }
+  #team .card .card-img {
+    position: relative; }
+    #team .card .card-img img {
+      width: 100%;
+      height: 250px; }
+  #team .card .card-hide-content {
+    transition: 1s;
+    opacity: 0;
+    margin-top: -7rem;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s; }
+
+#team .card:before {
+  opacity: 0;
+  transition: 2s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-transition: 4s;
+  -moz-transition: 4s;
+  -ms-transition: 4s;
+  -o-transition: 4s; }
+
+#team .card:hover::before,
+#team .card:hover .card-hide-content {
+  color: #000;
+  opacity: 1;
+  width: 100%;
+  transition: 3s;
+  -webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s; }
+
+#team .card-body {
+  transition: 4s;
+  -webkit-transition: 4s;
+  -moz-transition: 4s;
+  -ms-transition: 4s;
+  -o-transition: 4s; }
+
+#team .card:hover .card-body {
+  z-index: 2;
+  background: #d4d426; }
+
+#subscribe {
+  min-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/subscribe/bg.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 33%, 100% 2%, 100% 72%, 0 100%); }
+  #subscribe h2 {
+    font-size: 48px; }
+  #subscribe input,
+  #subscribe button {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0; }
+
+#blog {
+  background: #fff; }
+  #blog .blog-title h2 {
+    font-size: 48px; }
+  #blog .blog-img img {
+    width: 250px;
+    height: 250px; }
+
+#contact {
+  min-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/reserved/bg.jpg") no-repeat center center/cover; }
+  #contact .contact-content {
+    background: #69460d; }
+  #contact .btn {
+    background: #131313;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s; }
+  #contact .btn:hover {
+    background: #000; }
+
+#footer {
+  background: #000; }
+  #footer .social-icon ul {
+    margin: 0;
+    padding: 0; }
+    #footer .social-icon ul li a i {
+      padding-top: 7px;
+      height: 30px;
+      width: 30px;
+      background: #131313;
+      color: #FFC107;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      transition: .4s;
+      -webkit-transition: .4s;
+      -moz-transition: .4s;
+      -ms-transition: .4s;
+      -o-transition: .4s; }
+  #footer .social-icon ul li a i:hover {
+    background: #000; }
+  #footer .arrow-sign a {
+    color: #BE512B;
+    font-size: 2rem;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s; }
+  #footer .arrow-sign a:hover {
+    color: rgba(255, 255, 0, 0.5); }
